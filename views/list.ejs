@@ -8,7 +8,16 @@
 </head>
 <body>
 
-    <h1>Today is: <%=today%></h1>
-    
+    <h1><%= today%></h1>
+    <ul>
+        <li>Eat</li>
+        <li>Sleep</li>
+        <li>Code</li>
+    </ul>
+    <!-- form that makes post request to the root route -->
+    <form action="/" method="post">
+        <input type="text" name="newItem">
+        <button type="submit">Add</button>
+    </form>
 </body>
 </html>
