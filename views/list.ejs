@@ -13,11 +13,19 @@
         <li>Eat</li>
         <li>Sleep</li>
         <li>Code</li>
+        
+       <% for(var i = 0; i < newItemListArray.length; i++) { %>
+            <li>
+                <%= newItemListArray[i] %>
+            </li>
+        <%} %>
     </ul>
+
     <!-- form that makes post request to the root route -->
     <form action="/" method="post">
         <input type="text" name="newItem">
         <button type="submit">Add</button>
     </form>
+
 </body>
 </html>
