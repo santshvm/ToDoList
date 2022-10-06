@@ -23,11 +23,16 @@ Features:
 <ol>
 <li>Add Items To The List By Adding The + Button. </li>
 <li>Strike off An Item That Has Been Completed By Clicking The CheckBox. </li>
+
+
+
+
 </ol></p>
 <h4>Demo of the prototype</h4>
+https://user-images.githubusercontent.com/70855191/194382300-e76c48b7-4a6c-499b-b240-df9973f5ed7a.mov
 
 
-https://user-images.githubusercontent.com/70855191/194381272-a12ae503-2ff7-4cea-b208-44aa5531b499.mov
+
 
 
 
