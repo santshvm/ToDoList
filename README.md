@@ -14,8 +14,3 @@ https://user-images.githubusercontent.com/70855191/194155645-adb93621-2fb9-45a2-
 
 
 
-
-<<<<<<< HEAD
-<h4>Demo of the prototype</h4>
-=======
->>>>>>> fa3927337d32a2e7477ce4589fecfea7f4eb5ecc
