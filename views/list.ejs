@@ -9,22 +9,31 @@
 </head>
 <body>
 
-    <h1><%= today%></h1>
-    <ul>
+    <div class="box" id="heading">
+        <h1><%= today%></h1>
+    </div>
+
+    <div class="box">
+    
        
         
        <% for(var i = 0; i < newItemListArray.length; i++) { %>
-            <li>
+        <div class="item">
+        <input type="checkbox">    
+        <p>
                 <%= newItemListArray[i] %>
-            </li>
+        </p>
+        </div>    
         <%} %>
-    </ul>
-
     <!-- form that makes post request to the root route -->
-    <form action="/" method="post">
-        <input type="text" name="newItem">
-        <button type="submit">Add</button>
+    <form class="item" action="/" method="post">
+        <input type="text" name="newItem" placeholder="New Item" autocomplete="off">
+        <button type="submit">+</button>
     </form>
+
+</div>
+
+    
 
 </body>
 </html>
