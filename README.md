@@ -30,7 +30,7 @@ https://user-images.githubusercontent.com/70855191/194382469-7b5cfe0a-7660-4884-
 <footer> 
 <p>Santosh Shivam 2022 ©</p>
 
-<p><a href="santshvm.com" target="_blank">santshvm.com</a></p>
+<p><a href="https://santshvm.com" target="_blank">santshvm.com</a></p>
 </footer> 
 
 
