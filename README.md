@@ -1,6 +1,6 @@
 # ToDoList
 <h2>About The Project </h2> 
-<p>A web application that helps users manage their tasks by listing all the tasks that need to be completed, organized in order of priority. By using this application, users can add tasks to the list by entering the task in the input box and adding the + button and after the task has been completed the user can strike off the task from the list by checking the check-box. </p>
+<p>A web application that helps users manage their tasks by listing all the tasks that needs to be completed, organized in order of priority. By using this application, users can add tasks to the list by entering the task in the input box and adding the + button and after the task has been completed the user can strike off the task from the list by checking the check-box. </p>
 
 <p> The project is still under progress and new functionalities and improvements will be added in the later version of the project. </p>
 
