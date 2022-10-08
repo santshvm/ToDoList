@@ -15,7 +15,7 @@ Server Side: Node.js, Express</p>
 <li> Now navigate to the project directory and set up new npm package by typing in npm init in the terminal. 
 <li> You would need to install some npm packages. </li> 
 <li> Type in npm -i to install all the packages. </li> 
-<li> Start the server by typing in node app.js </li>
+<li> Start the server by typing in node app.js in the terminal</li>
 </ul>
 
 <p> All Set! Your app should be now running on port:3000. Head over to your browser and enter localhost:3000 in the serach box and bang! You will see the application running in your browser. 
