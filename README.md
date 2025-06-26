@@ -20,6 +20,15 @@ Server Side: Node.js, Express</p>
 
 <p> All Set! Your app should be now running on port:3000. Head over to your browser and enter localhost:3000 in the serach box and bang! You will see the application running in your browser. Add commentMore actions
 <h2> Here is a demo video of the working prototype </h2>
+
+
+https://github.com/user-attachments/assets/dd944570-0cc6-4094-84cc-527e2f045146
+
+
+
+
+
+
 <br>https://user-images.githubusercontent.com/70855191/194382469-7b5cfe0a-7660-4884-b98e-cdf1489f1841.mov
 
 <hr>
