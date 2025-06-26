@@ -1,37 +1,53 @@
-# ToDoList
-<h2>About The Project </h2> 
-<p>A web application that helps users manage their tasks by listing all the tasks that needs to be completed, organized in order of priority. By using this application, users can add tasks to the list by entering the task in the input box and adding the + button and after the task has been completed the user can strike off the task from the list by checking the check-box. </p>
+# Selenium Test Automation Project – To-Do List Application
 
-<p> The project is still under progress and new functionalities and improvements will be added in the later version of the project. </p>
+## Repository
+Frontend App: https://github.com/santshvm/ToDoList
 
-<h2>Tech Stack</h2> 
-<p>Client Side: EJS </p><p>
-Server Side: Node.js, Express</p>
-<h2>How To Use This App</h2>
-<ul>
-<li> Clone this repository to your machine </li> 
-<li> Install node if you haven't installed yet. Head over to this <a href="https://nodejs.org/en/download/">Website</a> to download Node.js </li> 
-<li> After you download Node.js, you can check whether Node.js was sucessfully installed or not by typing in this command in the terminal - node -v </li>
-<li> Now navigate to the project directory and set up new npm package by typing in npm init in the terminal. 
-<li> You would need to install some npm packages. </li> 
-<li> Type in npm -i to install all the packages. </li> 
-<li> Start the server by typing in node app.js in the terminal</li>
-</ul>
-
-<p> All Set! Your app should be now running on port:3000. Head over to your browser and enter localhost:3000 in the serach box and bang! You will see the application running in your browser. 
-<h2> Here is a demo video of the working prototype </h2>
-<br>
-
-https://user-images.githubusercontent.com/70855191/194382469-7b5cfe0a-7660-4884-b98e-cdf1489f1841.mov
+This repository contains a suite of automated test cases developed using Selenium WebDriver and TestNG in Java, targeting a custom-built To-Do List web application. The purpose of this project is to verify key functionalities through automated UI tests and demonstrate end-to-end testing using a clean and modular structure.
 
 
-<hr> 
+## Test Scenarios Covered
 
-<footer> 
-<p>Santosh Shivam 2022 ©</p>
+- Add Task – Adds a new item and verifies it is displayed in the list.
 
-<p><a href="https://santshvm.com" target="_blank">santshvm.com</a></p>
-</footer> 
+- Delete Task – Removes an existing item from the list and verifies it no longer exists.
+
+- Mark Task as Complete – Simulates checking a task as completed and validates checkbox state.
+
+- Filter Tasks (Active / Completed / All) – Tests the UI filter functionality to display tasks based on status.
+
+- Date Heading Validation – Confirms that the current date is correctly rendered in the UI header.
+
+## Technology Stack
+
+- Language: Java
+
+- Automation: Selenium WebDriver
+
+- Testing Framework: TestNG
+
+- Build Tool: Maven
+
+- Execution Config: testng.xml
+
+- Browser: Google Chrome (via ChromeDriver)
+
+## Project Structure
+
+![image](https://github.com/user-attachments/assets/d2628e3f-3eec-4631-b702-d2e1500f5d0e)
 
 
+
+## How to Run
+
+Ensure your To-Do app is running locally at http://localhost:3000
+(Start with: node app.js)
+
+Download and configure ChromeDriver for your system.
+Place it in the project root or add to system PATH.
+
+Run the following command in terminal:
+mvn test
+
+Test results will be available under the test-output/ directory.
 
